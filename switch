@@ -1,0 +1,29 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+  
+  
+		Console.Write("Escribe un numero entero: ");
+		a = Convert.ToInt16(Console.ReadLine());
+	
+		 switch (c)
+	
+		
+				
+			case 1:
+				Console.WriteLine("Lunes");
+			    break;
+			case 2:
+				Console.WriteLine("Martes");
+			    break;
+			case 3:
+				Console.WriteLine("Miercoles");
+			    break;
+			default:
+				Console.WriteLine("Jueves");
+			    break;
+		}
+}
