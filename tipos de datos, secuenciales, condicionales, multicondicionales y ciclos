@@ -1,0 +1,103 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Welcome to my homework! ");
+	
+	
+	  int edad;
+	  string nombre;
+	  double peso;
+	  char regimen;
+	  double total;
+	  int i= 2;
+   	  int b;
+	  int a=4;
+	  int d=6;
+	
+	
+	
+	 Console.WriteLine("Por favor escribe tu nombre: ");
+		Console.Write("\n\n");
+		nombre = Convert.ToString(Console.ReadLine());
+		
+	 Console.WriteLine("Por favor escribe tu edad:" );
+		Console.Write("\n\n");
+		edad = int.Parse(Console.ReadLine());
+	
+	Console.WriteLine("Cuanto pesas? ");
+		Console.Write("\n\n");
+		peso = Convert.ToDouble(Console.ReadLine());
+	
+	Console.WriteLine("Escribe tu regimen fiscal ");
+	    regimen = Char.Parse(Console.ReadLine());
+		Console.Write("\n\n");
+		
+	total = edad + peso;
+	 
+	Console.WriteLine("Sumando tu edad y peso el resulto es: " +  total);
+		
+		
+		
+	    for(i=5; i>0; i--)
+
+		{
+			Console.Write("numero de repeticion: ");
+		    Console.WriteLine(i);
+
+		}
+
+		for(i=0; i<=5; i++)
+		{
+			Console.Write("numero de repeticion: ");
+		    Console.WriteLine(i);
+		}
+		
+		for(i=10; i>0; i-=5)
+
+		{
+			Console.Write("numero de repeticion: ");
+		    Console.WriteLine(i);
+			
+		}	
+		
+		
+		Console.Write("Cuantas repeticiones quieres: ");
+		b= Convert.ToInt16(Console.ReadLine());
+		
+		do
+		{
+			Console.Write("el numero de repeticion: ");
+		    Console.WriteLine(i);
+		    i++;
+	    } while (i <= b);
+		
+		Console.WriteLine("\n\n\t\ttermina tu ciclo");
+		
+	   	while (i <= b);
+		{
+			Console.Write("el numero de repeticion: ");
+		    Console.WriteLine(i);
+		    i++;
+	    } 
+		
+		{
+			Console.WriteLine("Escribe un numero: ");
+		a = Convert.ToInt16(Console.ReadLine());
+		Console.Write("Escribe otro numero: ");
+		b = Convert.ToInt16(Console.ReadLine());
+		
+		if (a < b)
+			Console.WriteLine("a es menor que d");
+		
+		else
+			if (a > b)
+			  Console.WriteLine("a es mayor que d");
+		    else 
+				Console.WriteLine("a es igual que d");
+		}
+		
+
+} }
